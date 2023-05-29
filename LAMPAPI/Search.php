@@ -37,7 +37,7 @@
 
 		if( $searchCount == 0 )
 		{
-			returnWithError( "No Recordszzx Found" );
+			returnWithError( "No Records Found" );
 		}
 		else
 		{
