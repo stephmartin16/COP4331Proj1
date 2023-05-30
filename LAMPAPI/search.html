@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Search Contacts</title>
+	<link rel="icon" type="image/x-icon" href="mountain_logo.png">
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+		<style>
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: darkseagreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+	<style>
+	body {
+	  background-image: url('mountain_wsky.png');
+		background-size: cover;
+	}
+	</style>
+	<img src="mountain_logo_wtext.png" alt="Mountaintop Contact Service Logo" width=75px height=75px>
+ <h1 id="title">The mountains are calling...</h1>
+
+
+
+<div id="searchDiv">
+  <span id="inner-title">Mountaintop Contact Manager</span>
+  <button type="button" id="returnButton" class="buttons" onclick="window.location.href='home.html';"> Home Page </button>
+	<span id="inner-title">Search Your Contacts</span>
+  <input type="text" id="searchName" placeholder="Enter Contact Here" /><br />
+  <button type="button" id="searchButton" class="buttons" onclick="searchContact();"> Search Contact </button>
+	<span id="loginResult"></span>
+</div>
+
+<h2 id="title2">and I must <a href="about.html" target="_blank">know</a>...</h2>
+
+<p id="footer"> Copyright © 2023 Mountaintop Contact Manager, Inc. - All rights reserved. </p>
+
+</body>
+</html>

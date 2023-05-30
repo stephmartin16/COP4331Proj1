@@ -1,0 +1,306 @@
+body
+{
+    background-color: #707070;
+}
+
+#title
+{
+  font-size: 40px;
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  font-family: "Homemade Apple";
+  color: #FFFFFF;
+}
+
+#title2
+{
+    font-size: 40px;
+    width: 100%;
+    margin: 1%;
+    text-align: center;
+    font-family: "Homemade Apple";
+    color: #FFFFFF;
+}
+
+#loginDiv
+{
+    font-size: 30px;
+    width: 35%;
+    margin-left: 32.5%;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#aboutDiv
+{
+    font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    font-family: "Leckerli One";
+}
+
+#signUpDiv
+{
+    font-size: 30px;
+    width: 35%;
+    margin-left: 32.5%;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#loggedInDiv
+{
+    font-size: 30px;
+    width: 35%;
+    margin-left: 32.5%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: darkseagreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#searchDiv
+{
+    font-size: 30px;
+    width: 35%;
+    margin-left: 32.5%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: darkseagreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#accessUIDiv
+{
+    font-size: 30px;
+    width: 70%;
+    margin-left: 15%;
+    padding: 25px;
+    background-color: #b2b2b2;
+}
+
+.buttons
+{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+    font-family: "Leckerli One";
+}
+
+.buttonNoBorder
+{
+    font-size: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    background-color: darkseagreen;
+    border: none;
+    font-family: "Leckerli One";
+}
+
+
+
+.buttonsAction
+{
+  font-size: 30px;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 25%;
+  font-family: "Leckerli One";
+  margin-top: 2%;
+}
+
+.buttonsDelete
+{
+  font-size: 30px;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 25%;
+  font-family: "Leckerli One";
+}
+
+.buttons:hover{
+    background-color: darkseagreen;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.buttonNoBorder:hover{
+    background-color: darkseagreen;
+    color: white;
+    opacity: 50%;
+}
+
+
+
+.buttonsAction:hover{
+    background-color: darkseagreen;
+    color: white;
+    opacity: 50%;
+}
+
+.buttonsDelete:hover{
+    background-color: red;
+    color: white;
+    opacity: 50%;
+}
+
+#loginName
+{
+	font-size: 30px;
+}
+#loginPassword
+{
+	font-size: 30px;
+}
+#searchText
+{
+	font-size: 30px;
+}
+#contactText
+{
+	font-size: 30px;
+}
+
+#signUpFirstName
+{
+	font-size: 30px;
+}
+
+#signUpLastName
+{
+	font-size: 30px;
+}
+
+#signUpName
+{
+	font-size: 30px;
+}
+#signUpPassword
+{
+	font-size: 30px;
+}
+#searchName
+{
+	font-size: 30px;
+}
+#firstName
+{
+	font-size: 30px;
+}
+#lastName
+{
+	font-size: 30px;
+}
+#phoneNumber
+{
+	font-size: 30px;
+}
+#email
+{
+	font-size: 30px;
+}
+
+input[type="text"],input[type="password"],input[type="firstName"],input[type="lastName"]{
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    font-family: "Leckerli One";
+}
+
+#inner-title{
+    display: inline-block;
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: "Leckerli One";
+    color: black;
+}
+
+#loginResult{
+    display: inline-block;
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: "Leckerli One";
+    color: red;
+}
+
+#userName{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#logoutButton{
+    width: 30%;
+    margin-left: 35%;
+}
+
+select{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-size: 0.75em;
+    font-family: "Leckerli One";
+}
+
+#contactSearchResult{
+    display: none;
+}
+
+#contactAddResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: "Leckerli One";
+    color: #95060a;
+}
+
+#johnMuirImg{
+  float: right;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 175px;
+  height: 250px;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#footer{
+  font-size: 14px;
+  color: white;
+  bottom: 0%;
+  position: fixed;
+}
+
+#signUpLink{
+  font-family: "Leckerli One";
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+  margin-left: 43%;
+
+}
