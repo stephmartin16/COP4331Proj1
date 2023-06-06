@@ -3,7 +3,6 @@
 	<title>Sign Up</title>
 	<link rel="icon" type="image/x-icon" href="mountain_logo.png">
 	<script type="text/javascript" src="js/md5.js"></script>
-	<script type="text/javascript" src="js/code.js"></script>
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
@@ -49,22 +48,32 @@ a:active {
 		background-size: cover;
 	}
 	</style>
-	<img src="mountain_logo_wtext.png" alt="Mountaintop Contact Service Logo" width=75px height=75px>
- <h1 id="title">The mountains are calling...</h1>
+	<img src="mountain_logo_wtext.png" alt="Mountaintop Contact Service Logo" usemap="#logo" width="75" height="75">
+	<map name="logo">
+		<area shape="rect" coords="5,5,80,80" alt="Login Page Link" href="index.html">
+	</map>
+ <h1 id="title" class="stroke">The mountains are calling...</h1>
 
 
 
 <div id="signUpDiv">
 	<span id="inner-title">Enter Account Information</span>
+	<label for="signUpFirstName" id="form-title2">First Name:</label>
 	<input type="firstName" id="signUpFirstName" placeholder="First Name"/><br />
+	<label for="signUpLastName" id="form-title2">Last Name:</label>
 	<input type="lastName" id="signUpLastName" placeholder="Last Name"/><br />
-	<input type="text" id="signUpName" placeholder="Username" /><br />
+	<label for="signUpName" id="form-title2">Username:</label>
+	<input type="username2" id="signUpName" placeholder="Username" /><br />
+	<label for="signUpFirstName" id="form-title2">Password:</label>
 	<input type="password" id="signUpPassword" placeholder="Password"/><br />
 	<button type="button" id="loginButton" class="buttons" onclick="doSignUp();"> Sign Up </button>
 	<span id="signUpResult"></span>
 </div>
 
-<h2 id="title2">and I must <a href="about.html" target="_blank">know</a>...</h2>
+<script type="text/javascript" src="js/code.js"></script>
+
+<h2 id="title2" class="stroke">and I must <a href="about.html" target="_blank">know</a>...</h2>
+
 
 <p id="footer"> Copyright © 2023 Mountaintop Contact Manager, Inc. - All rights reserved. </p>
 
