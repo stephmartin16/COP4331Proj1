@@ -507,4 +507,4 @@ function validateAddContract(FirstName, LastName, phoneNumber, emailAddress)
 
 	return false;
 }
-
+// Updated
