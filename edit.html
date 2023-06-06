@@ -40,8 +40,11 @@ a:active {
 		background-size: cover;
 	}
 	</style>
-	<img src="mountain_logo_wtext.png" alt="Mountaintop Contact Service Logo" width=75px height=75px>
- <h1 id="title">The mountains are calling...</h1>
+	<img src="mountain_logo_wtext.png" alt="Mountaintop Contact Service Logo" usemap="#logo" width=75px height=75px>
+	<map name="logo">
+		<area shape="rect" coords="5,5,80,80" alt="Login Page Link" href="home.html">
+	</map>
+ <h1 id="title" class="stroke">The mountains are calling...</h1>
 
 
 
@@ -49,18 +52,22 @@ a:active {
   <span id="inner-title">Mountaintop Contact Manager</span>
   <button type="button" id="returnButton" class="buttons" onclick="window.location.href='home.html';"> Home Page </button>
 	<span id="inner-title">Edit</span>
-	<input type="text" id="firstName" placeholder="New First Name" /><br />
-	<input type="text" id="lastName" placeholder="New Last Name" /><br />
-	<input type="text" id="phoneNumber" placeholder="XXX-XXX-XXXX" /><br />
-	<input type="text" id="email" placeholder="example@email.com" /><br />
-  <button type="button" id="editButton" class="buttons" onclick="editContact();"> Update Changes </button>
+	<label for="firstName" id="form-title2">First Name:</label>
+  <input type="firstName" id="firstName" placeholder="New First Name" /><br />
+	<label for="lastName" id="form-title2">Last Name:</label>
+	<input type="firstName" id="lastName" placeholder="New Last Name" /><br />
+	<label for="phoneNumber" id="form-title2">Phone #:</label>
+	<input type="firstName" id="phoneNumber" placeholder="XXX-XXX-XXXX" /><br />
+	<label for="email" id="form-title2">Email:</label>
+	<input type="firstName" id="email" placeholder="example@email.com" /><br />
+  <button type="button" id="updateButton" class="buttons" onclick="editContact();"> Update Changes </button>
 	<span id="inner-title">Delete Contact from List</span>
 	<button type="button" id="deleteButton" class="buttonsDelete" onclick="deleteMessage();"> Delete Contact </button>
 </div>
 
-<h2 id="title2">and I must <a href="about.html" target="_blank">know</a>...</h2>
+<h2 id="title2" class="stroke">and I must <a href="about.html" target="_blank">know</a>...</h2>
 
-<p id="footer"> Copyright © 2023 Mountaintop Contact Manager, Inc. - All rights reserved. </p>
+<p id="footer"> Copyright &copy 2023 Mountaintop Contact Manager, Inc. - All rights reserved. </p>
 
 </body>
 </html>
